@@ -1,0 +1,20 @@
+﻿opengl_glfw.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "void __cdecl key_pressed(struct GLFWwindow *,int,int,int,int)" (?key_pressed@@YAXPAUGLFWwindow@@HHHH@Z)
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwSetWindowSizeCallback referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "void __cdecl window_resized(struct GLFWwindow *,int,int)" (?window_resized@@YAXPAUGLFWwindow@@HH@Z)
+opengl_glfw.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+opengl_glfw.obj : error LNK2001: unresolved external symbol __imp____glewGetStringi
+opengl_glfw.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+./opengl/lib\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+./opengl/lib\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\bopu\documents\visual studio 2015\Projects\opengl_glfw\Debug\opengl_glfw.exe : fatal error LNK1120: 17 unresolved externals

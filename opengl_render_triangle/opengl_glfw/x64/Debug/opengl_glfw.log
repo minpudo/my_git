@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  opengl_glfw.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opengl_glfw.vcxproj -> D:\my_git\my_git\opengl_glfw\x64\Debug\opengl_glfw.exe
