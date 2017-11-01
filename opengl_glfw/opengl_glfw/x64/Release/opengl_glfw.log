@@ -1,0 +1,7 @@
+﻿  opengl_glfw.cpp
+  Generating code
+  3 of 15 functions (20.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  opengl_glfw.vcxproj -> D:\my_git\my_git\opengl_glfw\x64\Release\opengl_glfw.exe
